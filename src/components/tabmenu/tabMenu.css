@@ -1,0 +1,50 @@
+/* TabMenuLayout styling */
+.tabmenu-layout {
+    display: flex;
+    /*  align-items: flex-start; */
+    padding: 0px;
+    background-color: transparent;
+}
+
+.left-side {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+/* OtherActions styling */
+.other-actions {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+/* TabContent styling */
+.tab-content {
+    margin-top: 0px;
+    padding: 0px;
+}
+.p-tabview .p-tabview-panels {
+    padding: 0px !important;  
+}
+/* custom-tabView */
+
+.custom-tabView .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    color: #ff6600 !important;
+}
+.custom-tabView li.p-highlight .p-tabview-nav-link {
+    border: 0px !important;
+}
+.custom-tabView li.p-tabview-ink-bar {
+    background-color: #ff6600 !important;
+}
+
+.custom-tabView .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    border: hidden !important;
+
+}
